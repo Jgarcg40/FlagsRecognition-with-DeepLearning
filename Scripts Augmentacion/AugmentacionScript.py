@@ -1,6 +1,6 @@
 import os
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
 
 # Ruta de la carpeta con las imagenes(se puede obtener con un for y una libreria de python pero yo las tenia ya guardadas asi que copie y pegue el nombre
 

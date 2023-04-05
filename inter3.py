@@ -74,12 +74,20 @@ for d in directories:
 img_path = ""
 def open_image():
     global img_path
-    img_path = filedialog.askopenfilename(filetypes=[("Image Files", "*.jpg;*.jpeg;*.png;*.bmp")])#abre imágenes de este tipo solo
-    messagebox.showinfo(title="Imagen cargada", message="Has cargado la imagen correctamente")
-    img = image.load_img(img_path, target_size=(124, 124))
-    img_tensor = image.img_to_array(img)
-    img_tensor = np.expand_dims(img_tensor, axis=0)
-    img_tensor /= 255.
+    img_tensor = None
+
+    try:
+        img_path = filedialog.askopenfilename(filetypes=[("Image Files", "*.jpg;*.jpeg;*.png;*.bmp")])#abre imágenes de este tipo solo
+        if img_path:  # Verificar si se seleccionó una imagen
+            img = Image.open(img_path).resize((124,124))
+            img_tensor = np.array(img, dtype=np.float32)
+            img_tensor /= 255.
+            messagebox.showinfo(title="Imagen cargada", message="Has cargado la imagen correctamente")
+        else:
+            messagebox.showwarning(title="Advertencia", message="No se ha seleccionado ninguna imagen.")
+    except Exception:
+        messagebox.showerror(title="Error", message="error al cargar la imagen")
+
     return img_tensor
 
 
@@ -89,7 +97,7 @@ def get_summary(country): #funcion para texto de wikipedia
     page = wikipedia.page(country)
     raw_summary = page.summary
     summary = re.sub(r'\[\d+\]', '', raw_summary)#eliminar simbolos
-    summary_lines = summary.split('\n')[:2]#resumen
+    summary_lines = summary.split('\n')[:1]#resumen
     summary = '\n'.join(summary_lines)
     return summary
 

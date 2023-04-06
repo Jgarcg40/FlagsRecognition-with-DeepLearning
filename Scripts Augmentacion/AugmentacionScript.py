@@ -2,11 +2,11 @@ import os
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
 
-# Ruta de la carpeta con las imagenes(se puede obtener con un for y una libreria de python pero yo las tenia ya guardadas asi que copie y pegue el nombre
+# Ruta de la carpeta con las imagenes
 
-data_dir = r"C:\Users\yoni8\Desktop\dataset_test"
+data_dir = 'resources\dataset_train'
 
-# tamaño de las imágenes después de la transformación
+# tamaño de las imágenes después de la augmentacions
 img_size = 124
 
 # parametros augmentacion
@@ -31,7 +31,7 @@ for n in nombres_carpetas:
         batch_size=32,
         class_mode='categorical')
 
-    # Generamos las imagenes,1000 aprox
+    # Generamos las imagenes,1000 + 5
 
     count = 0
     while count < 1000:

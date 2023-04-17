@@ -1,8 +1,6 @@
 MANUAL DE EJECUCIÓN
 
-Si se quisiera replicar este proyecto, todo el código necesario se encuentra en este repositorio de Github: https://github.com/Jgarcg40/FlagsRecognition.git
-En él se encuentran guardados en la carpeta “aplicaciones de Python” los programas utilizados para realizar la augmentación y el redimensionamiento de las imágenes 
-utilizadas. Los datasets y los elementos necesarios para ejecutar las aplicaciones estarán en la carpeta resources.
+Los datasets y los elementos necesarios para ejecutar las aplicaciones estarán en la carpeta resources.
 También se encuentra en el repositorio la aplicación para entrenar las redes neuronales (RNNCNNCRNN.py) y la aplicación con la interfaz para poder 
 interpretar banderas (inter3.py). Si se quiere ejecutar estas aplicaciones tan solo es necesario tener en la misma ruta la carpeta resources, 
 abrir el entorno de desarrollo pycharm, ya que es el entorno en el cual se ha realizado el proyecto, después se necesita instalar las librerías necesarias 

@@ -1,3 +1,6 @@
+Aplicación para reconocer banderas en imágenes como proyecto de TFG probando 3 redes neuronales distitntas.
+
+
 MANUAL DE EJECUCIÓN
 
 Los datasets y los elementos necesarios para ejecutar las aplicaciones estarán en la carpeta resources, además en la carpeta aplicaciones python se encuentra los scripts usados para lograr los datasets.

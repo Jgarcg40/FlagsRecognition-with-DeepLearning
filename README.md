@@ -1,4 +1,4 @@
-Aplicación para reconocer banderas en imágenes como proyecto de TFG probando 3 redes neuronales distitntas.
+Aplicación para reconocer banderas en imágenes como proyecto de TFG de la carrera de ingeniería informática,probando 3 redes neuronales distintas.
 
 
 MANUAL DE EJECUCIÓN

@@ -1,1 +1,2 @@
-*.py_lenguaje linguist-language=lenguaje
+* linguist-vendored
+*.py linguist-vendored=false

@@ -10,3 +10,4 @@ Se usaron 3 redes neuronales distintas para probar distintas eficacias e investi
 
 Si la intención es crear un ejecutable con toda la aplicación se deberá usar la línea comentada en la línea 15 del archivo inter3.py en la consola de comandos de pycharm.
 
+Una vez realizados estos paso para utilizar correctamente la aplicación con interfaz sólo es necesario introducir una imagen con una bandera pulsando introducir imagen y seleccionandola de tu disco, y luego pulsar el boton CNN u otra red neuronal si se prefiere. Después de eso mostrará el resultado de la predicción y un breve texto de Wikipedia hablando del país.

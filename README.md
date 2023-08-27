@@ -1,4 +1,4 @@
-Aplicación para reconocer banderas en imágenes como proyecto de TFG de la carrera de ingeniería informática, probando 3 redes neuronales distintas para determinar cuál es la mejor y observar los distintos rendimientos de cada una. Se hicieron 3 datasets, uno de entrenamiento, otro se validación y uno de test, usándose en cada uno excepto en el de test, 1000 imágenes aumentadas a partir de 5 en cada país( total 193 países).
+Aplicación para reconocer banderas en imágenes la cual prueba tres redes neuronales distintas para determinar cuál es la mejor y observar los distintos rendimientos de cada una. Se hicieron tres datasets, uno de entrenamiento, otro se validación y uno de test, usándose en cada uno excepto en el de test, 1000 imágenes aumentadas a partir de 5 en cada país( total 193 países).
 
 
 MANUAL DE EJECUCIÓN

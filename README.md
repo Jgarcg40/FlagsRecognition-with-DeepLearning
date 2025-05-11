@@ -1,4 +1,4 @@
-# Sistema de Reconocimiento de Banderas con Redes Neuronales (2022)
+# Sistema de Reconocimiento de Banderas con Redes Neuronales (Realizado en 2022)
 
 ## Descripción
 Este proyecto de investigación implementa un sistema de reconocimiento de banderas de países utilizando diferentes arquitecturas de redes neuronales profundas. El objetivo principal fue comparar tres tipos de redes neuronales (CNN, RNN y CRNN) para determinar cuál ofrece el mejor rendimiento en la tarea de clasificación de banderas de 193 países. Los resultados experimentales demostraron que la CNN es la arquitectura más eficaz para este tipo de reconocimiento de imágenes, aunque la CRNN también mostró un rendimiento aceptable.
